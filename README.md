@@ -8,7 +8,7 @@ Built from scratch using mainly HTML, CSS, Javascript, and the Bootstrap framewo
 
 # Future Plans
 
-My next step is to increase the responsiveness of the site using Javascript to preload icons and to fix any cross-browser responsiveness incontingencies.
+My next step is to increase the responsiveness of the site using Javascript to preload icons and to fix any cross-browser formatting / display incontingencies.
 
 Also, in the future, I would like to add a USC-related easter egg to the website which primarily involves the neat little SC logo at the top left corner of the page.
 
