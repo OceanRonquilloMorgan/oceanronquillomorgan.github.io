@@ -105,14 +105,17 @@
 		}
 		#waves {
 			background-image: url(img/hawaii2.jpg);
+			max-width: 100%;
 		}
 
 		#code {
 			background-image: url(img/code.jpg);
+			max-width: 100%;
 		}
 
 		#sunset {
 			background-image: url(img/scsunset.jpg);
+			max-width: 100%;
 		}
 
 		#fighton {
