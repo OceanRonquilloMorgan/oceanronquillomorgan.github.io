@@ -103,20 +103,25 @@
 			background-image: url(img/hawaii.jpg);
 			margin: 0px;
 			padding-top: 0px;
+			max-width: 100%;
+			max-height: 100%;
 		}
 		#waves {
 			background-image: url(img/hawaii2.jpg);
 			max-width: 100%;
+			max-height: 100%;
 		}
 
 		#code {
 			background-image: url(img/code.jpg);
 			max-width: 100%;
+			max-height: 100%;
 		}
 
 		#sunset {
 			background-image: url(img/scsunset.jpg);
 			max-width: 100%;
+			max-height: 100%;
 		}
 
 		#fighton {
