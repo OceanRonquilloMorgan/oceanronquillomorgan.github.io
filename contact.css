@@ -1,4 +1,5 @@
 
+
 		/* cyrillic */
 		@font-face {
 		  font-family: 'Oswald';
@@ -80,23 +81,9 @@
 
 		.landing-text .container h3 {
 			font-family: 'Oswald', sans-serif;
+			text-transform: uppercase;
 			color: white;
 			font-size: 2em;
-		}
-
-		#background-box {
-			background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply;
-			border: 1px solid white;
-			width: 400px;
-			margin: auto;
-			display: block;
-			margin-top: 200px;
-			padding: 20px;
-		}
-
-		#background-box h1 {
-			color: white;
 		}
 
 		#hawaii {
@@ -106,31 +93,7 @@
 			max-width: 100%;
 			max-height: 100%;
 		}
-		
-		#waves {
-			background-image: url(img/hawaii2.jpg);
-			max-width: 100%;
-			max-height: 100%;
-		}
 
-		#code {
-			background-image: url(img/code.jpg);
-			max-width: 100%;
-			max-height: 100%;
-		}
-
-		#fighton {
-			position: absolute;
-			top: 15px;
-			left: 10px;
-			padding: 10px 20px;
-			height: 60px;
-		}
-
-		.grey-background {
-			background-color: #EDEEEF;
-		}
-		
 		.navbar {
 			margin: 0px;
 			background-color: transparent;
@@ -138,6 +101,7 @@
 			font-size: 19px;
 			letter-spacing: 1px;
 		}
+
 		.nav-items {
 			color: white;
 			margin-left: 17px;
@@ -165,41 +129,19 @@
 		    margin: auto;
 		}
 
-		.row {
-		    margin-right: -15px;
-		    margin-left: -15px;
+		#fighton {
+			position: absolute;
+			top: 15px;
+			left: 10px;
+			padding: 10px 20px;
+			height: 60px;
 		}
 
-		.myinfo {
-		    padding: 30px;
+		#contact {
+					background-color: white;
 		}
 
-		.myinfo h1 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 45px;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			padding-bottom: 15px;
-		}
-
-		.myinfo p {
-		    font-family: 'PT Serif', serif;
-		    font-size: 17px;
-		    line-height: 1.5em;
-		    text-align: left;
-		    padding-left: 27px;
-			padding-right: 27px;
-		}
-
-		h1 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 45px;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			padding-bottom: 15px;
-		}
-
-		h2 {
+		#contact h2 {
 			font-family: 'Oswald', sans-serif;
 			font-size: 40px;
 			letter-spacing: 1px;
@@ -208,108 +150,6 @@
 			padding-bottom: 30px;
 		}
 
-		h3 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 25px;
-			letter-spacing: 1px;
-			outline: 1px;
-			text-transform: uppercase;
-		}
-
-		h4 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 20px;
-			outline: 1px;
-			text-transform: uppercase;
-
-		}
-
-		p {
-			font-family: 'PT Serif', serif;
-			font-size: 17px;
-			line-height: 1.5em;
-			text-align: left;
-		}
-
-		#organizations .container h2 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 40px;
-			letter-spacing: 1px;
-			outline: 1px;
-			text-transform: uppercase;
-			padding-top: -30px;
-			padding-bottom: 55px;
-		}
-
-		#organizations .container h3 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 25px;
-			letter-spacing: 1px;
-			outline: 1px;
-			text-transform: uppercase;
-		}
-
-		#organizations .container h4 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 20px;
-			outline: 1px;
-			text-transform: uppercase;
-
-		}
-
-		#projects .container h2 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 40px;
-			letter-spacing: 1px;
-			outline: 1px;
-			text-transform: uppercase;
-			padding-bottom: 30px;
-			margin-top: 20px;
-    		margin-bottom: 10px;
-		}
-
-		#contact .container h2 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 40px;
-			letter-spacing: 1px;
-			outline: 1px;
-			text-transform: uppercase;
-			padding-bottom: 55px;
-		}
-
-		#me-img {
-			margin-bottom: 50px;
-		}
-
-		.outer-organizations {
-			padding: 0 20px;
-		}
-
-		.outer-organizations p {
-			font-family: 'PT Serif', serif;
-			font-size: 16px;
-
-		}
-
-		.outer-organizations .club-images:hover, .outer-organizations .club-images:active { 
-			border-radius: 50%;
-			-webkit-transition: -webkit-transform .7s ease-in-out;
-			transition: transform .7s ease-in-out;
-			-webkit-transform: rotate(360deg);
-          	transform: rotate(360deg);
-
-		}
-
-		#projects {
-			background-color: white;
-		}
-
-		.club-images {
-			width: 180px;
-			margin: 10px;
-		}
-
-		/* social media buttons */
 		.list-unstyled {
 			list-style: none;
 		}
