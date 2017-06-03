@@ -1,6 +1,4 @@
-
-
-		/* cyrillic */
+/* cyrillic */
 		@font-face {
 		  font-family: 'Oswald';
 		  font-style: normal;
@@ -81,9 +79,10 @@
 
 		.landing-text .container h3 {
 			font-family: 'Oswald', sans-serif;
-			text-transform: uppercase;
 			color: white;
 			font-size: 2em;
+			letter-spacing: 1px;
+			text-transform: uppercase;
 		}
 
 		#hawaii {
