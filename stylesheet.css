@@ -63,6 +63,13 @@
 
 		.wrapper {
 			overflow-x: hidden;	
+			animation: fadein 2s;
+			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	       -moz-animation: fadein 2s; /* Firefox < 16 */
+	        -ms-animation: fadein 2s; /* Internet Explorer */
+	        -o-animation: fadein 2s; /* Opera < 12.1 */
+	        animation-delay: .5s;
+	        animation-fill-mode: backwards;
 		}
 
 		.jumbotron {
@@ -78,14 +85,6 @@
 			margin: 0;
 			color: white;
 			background-color: transparent;
-
-			animation: fadein 2s;
-			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	       -moz-animation: fadein 2s; /* Firefox < 16 */
-	        -ms-animation: fadein 2s; /* Internet Explorer */
-	        -o-animation: fadein 2s; /* Opera < 12.1 */
-	        animation-delay: .5s;
-	        animation-fill-mode: backwards;
 		}
 
 		.jumbotron h1 {
