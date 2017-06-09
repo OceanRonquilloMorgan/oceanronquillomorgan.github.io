@@ -63,11 +63,11 @@
 
 		.wrapper {
 			overflow-x: hidden;	
-			animation: fadein 2s;
-			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	       -moz-animation: fadein 2s; /* Firefox < 16 */
-	        -ms-animation: fadein 2s; /* Internet Explorer */
-	        -o-animation: fadein 2s; /* Opera < 12.1 */
+			animation: fadein 3s;
+			-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+	       -moz-animation: fadein 3s; /* Firefox < 16 */
+	        -ms-animation: fadein 3s; /* Internet Explorer */
+	        -o-animation: fadein 3s; /* Opera < 12.1 */
 	        animation-delay: .5s;
 	        animation-fill-mode: backwards;
 		}
@@ -98,7 +98,7 @@
 		.landing-text {
 			font-family: 'Oswald', sans-serif;
 			background: transparent;
-			padding-top: 35px;
+			padding-top: 30px;
 		}
 
 		.landing-text .container h1 {
@@ -108,16 +108,28 @@
 		    font-weight: 700;
 		    margin-bottom: 10px;
 		    display: inline;
-		    background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
-		    -webkit-background-clip: text;
-		    -webkit-text-fill-color: transparent;
-		    background-clip: text;
+		    color: 	#FFD700;
+		    text-shadow: rgba(0, 0, 0, 0.3) 0px 4px 3px;
+		}
+
+		.landing-text .container h1:hover {
+		    color: rgb(380,230,0);
+
+		    animation: ease .2s;
+			-webkit-transition: ease .2s;
+			-moz-transition: ease .2s;
+			-o-transition: .2s ease;
+			-ms-transition: .2s ease;
+			transition: .2s ease;
 		}
 
 		.landing-text .container h3 {
 			font-family: 'Oswald', sans-serif;
 			color: white;
 			font-size: 2em;
+			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
 		}
 
 		#background-box {
@@ -139,20 +151,22 @@
 			background-image: url(img/hawaii.jpg);
 			margin: 0px;
 			padding-top: 0px;
-			max-width: 100%;
-			max-height: 100%;
+			background-size: cover;
 		}
 		
 		#waves {
 			background-image: url(img/hawaii2.jpg);
-			max-width: 100%;
-			max-height: 100%;
+			background-size: cover;
 		}
 
 		#code {
 			background-image: url(img/code.jpg);
-			max-width: 100%;
-			max-height: 100%;
+			background-size: cover;
+		}
+
+		#sunset {
+			background-image: url(img/scsunset.jpg);
+			background-size: cover;
 		}
 
 		#fighton {
@@ -162,6 +176,14 @@
 			padding: 10px 20px;
 			height: 60px;
 		}
+
+		#fighton:hover, #fighton:active { 
+			border-radius: 50%;
+			-webkit-transition: -webkit-transform .7s ease-in-out;
+			transition: transform .7s ease-in-out;
+			-webkit-transform: rotate(360deg);
+          	transform: rotate(360deg);
+        }
 
 		.grey-background {
 			background-color: #EDEEEF;
@@ -173,6 +195,9 @@
 			font-family: 'Oswald', sans-serif;
 			font-size: 19px;
 			letter-spacing: 1px;
+			text-shadow: 0px 3px 3px rgba(0,0,0,0.4),
+						 0px 6px 13px rgba(0,0,0,0.1),
+						 0px 15px 23px rgba(0,0,0,0.1);
 		}
 		.nav-items {
 			color: white;
@@ -345,9 +370,181 @@
 			margin: 10px;
 		}
 
+		.project-fill {
+			width: 275px;
+			margin: 10px;
+			padding-right: 15px;
+		}
+
+		/*Contact Form*/
+		html {    
+		  background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+		  background-size: cover;
+		  height:100%;
+		}
+
+		#feedback-page{
+			text-align:center;
+		}
+
+		#form-main{
+			width:100%;
+			float:left;
+			padding-top:0px;
+			background-color: white;
+		}
+
+		#form-div {
+			background-color:#D3D3D3;
+			width: 450px;
+			float: left;
+			left: 50%;
+			position: absolute;
+		  	margin-top:0px;
+			margin-left: -225px;
+		  -moz-border-radius: 7px;
+		  -webkit-border-radius: 7px;
+		}
+
+		.feedback-input {
+			color:#3c3c3c;
+		  	font-weight:500;
+			font-size: 18px;
+			border-radius: 0;
+			line-height: 22px;
+			background-color: #fbfbfb;
+			padding: 13px 13px 13px 54px;
+			margin-bottom: 10px;
+			width:100%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		  border: 3px solid rgba(0,0,0,0);
+		}
+
+		.feedback-input:focus{
+			background: #fff;
+			box-shadow: 0;
+			border: 3px solid #3498db;
+			color: #3498db;
+			outline: none;
+		  	padding: 13px 13px 13px 54px;
+		}
+
+		.focused{
+			color:#30aed6;
+			border:#30aed6 solid 3px;
+		}
+
+		/* Icons ---------------------------------- */
+		#name{
+			background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+			background-size: 30px 30px;
+			background-position: 11px 8px;
+			background-repeat: no-repeat;
+		}
+
+		#name:focus{
+			background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+			background-size: 30px 30px;
+			background-position: 8px 5px;
+		  background-position: 11px 8px;
+			background-repeat: no-repeat;
+		}
+
+		#email{
+			background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+			background-size: 30px 30px;
+			background-position: 11px 8px;
+			background-repeat: no-repeat;
+		}
+
+		#email:focus{
+			background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+			background-size: 30px 30px;
+		  background-position: 11px 8px;
+			background-repeat: no-repeat;
+		}
+
+		#comment{
+			background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+			background-size: 30px 30px;
+			background-position: 11px 8px;
+			background-repeat: no-repeat;
+		}
+
+		textarea {
+		    width: 100%;
+		    height: 150px;
+		    line-height: 150%;
+		    resize:vertical;
+		}
+
+		input:hover, textarea:hover,
+		input:focus, textarea:focus {
+			background-color:white;
+		}
+
+		#button-blue{
+			float:left;
+			width: 100%;
+			border: #fbfbfb solid 4px;
+			cursor:pointer;
+			background-color: #3498db;
+			color:white;
+			font-size:24px;
+			padding-top:22px;
+			padding-bottom:22px;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			transition: all 0.3s;
+		    margin-top:-4px;
+		    font-weight:700;
+		}
+
+		#button-blue:hover{
+			background-color: rgba(0,0,0,0);
+			color: #0493bd;
+		}
+			
+		.submit:hover {
+			color: #3498db;
+		}
+			
+		.ease {
+			width: 0px;
+			height: 74px;
+			background-color: #fbfbfb;
+			-webkit-transition: .3s ease;
+			-moz-transition: .3s ease;
+			-o-transition: .3s ease;
+			-ms-transition: .3s ease;
+			transition: .3s ease;
+		}
+
+		.submit:hover .ease{
+		  width:100%;
+		  background-color:white;
+		}
+
+		@media only screen and (max-width: 580px) {
+			#form-div{
+				left: 3%;
+				margin-right: 3%;
+				width: 88%;
+				margin-left: 0;
+				padding-left: 3%;
+				padding-right: 3%;
+			}
+}
+
 		/* social media buttons */
 		.list-unstyled {
 			list-style: none;
+			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						 0px 8px 13px rgba(0,0,0,0.1),
+						 0px 18px 23px rgba(0,0,0,0.1);
 		}
 		.list-inline li {
 			display: inline-block;
