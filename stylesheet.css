@@ -150,22 +150,54 @@
 		#hawaii {
 			background-image: url(img/hawaii.jpg);
 			margin: 0px;
-			padding-top: 0px;
+			padding-top: 0px; 
+			min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
+			background-size: cover;
+		}
+
+		#hawaii.newbg {
+		    background-image:url(img/tommy.jpg);
+		    margin: 0px;
+			padding-top: 0px; 
+			min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
 			background-size: cover;
 		}
 		
 		#waves {
 			background-image: url(img/hawaii2.jpg);
+			min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
 			background-size: cover;
 		}
 
 		#code {
 			background-image: url(img/code.jpg);
+			min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
 			background-size: cover;
 		}
 
 		#sunset {
 			background-image: url(img/scsunset.jpg);
+			min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
 			background-size: cover;
 		}
 
@@ -178,11 +210,7 @@
 		}
 
 		#fighton:hover, #fighton:active { 
-			border-radius: 50%;
-			-webkit-transition: -webkit-transform .7s ease-in-out;
-			transition: transform .7s ease-in-out;
-			-webkit-transform: rotate(360deg);
-          	transform: rotate(360deg);
+			cursor: pointer;
         }
 
 		.grey-background {
@@ -229,6 +257,13 @@
 		.row {
 		    margin-right: -15px;
 		    margin-left: -15px;
+		}
+
+		.section-title-border {
+		  width: 100px;
+		  height: 3px;
+		  background: grey;
+		  margin: 0 auto 35px;
 		}
 
 		.myinfo {
