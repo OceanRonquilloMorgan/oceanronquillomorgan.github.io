@@ -2,9 +2,11 @@
 My <a href="http://oceanronquillomorgan.github.io" target="_blank">personal website</a> to showcase my persona and future projects.
 
 # How It Was Built
-This was a three week project over the summer of 2017 which served as my first exposure to web development. Continuous updates and features as they come along.
+This was a three week project over the summer of 2017 which served as my first exposure to web development.
 
 Built from scratch using mainly HTML / CSS  and the Bootstrap framework for responsiveness along with a dash of jQuery for the USC-related easter egg on the website. Not too hard to find ;-)
+
+Continuous updates and features as they come along.
 
 # Future Plans
 
