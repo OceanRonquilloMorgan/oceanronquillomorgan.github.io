@@ -98,6 +98,7 @@
 		.landing-text {
 			font-family: 'Oswald', sans-serif;
 			background: transparent;
+			align-content: center;
 			padding-top: 30px;
 		}
 
@@ -181,6 +182,16 @@
 			background-size: cover;
 		}
 
+		#waves.newbg {
+		    background-image:url(img/cinematicarts.jpg);
+		    min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
+			background-size: cover;
+		}
+
 		#code {
 			background-image: url(img/code.jpg);
 			min-width: 100%;
@@ -191,9 +202,29 @@
 			background-size: cover;
 		}
 
+		#code.newbg {
+		    background-image:url(img/bovard.jpg);
+		    min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
+			background-size: cover;
+		}
+
 		#sunset {
 			background-image: url(img/scsunset.jpg);
 			min-width: 100%;
+  			min-height: 100%;
+			-webkit-background-size: cover; 
+			-moz-background-size: cover; 
+			-o-background-size: cover; 
+			background-size: cover;
+		}
+
+		#sunset.newbg {
+		    background-image:url(img/uscsunset.jpg);
+		    min-width: 100%;
   			min-height: 100%;
 			-webkit-background-size: cover; 
 			-moz-background-size: cover; 
