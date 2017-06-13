@@ -95,17 +95,17 @@
 			padding-bottom: 15px;
 		}
 
-		.landing-text {
+		.name {
 			font-family: 'Oswald', sans-serif;
 			background: transparent;
-			align-content: center;
+		    text-align: center;
 			padding-top: 30px;
 		}
 
-		.landing-text .container h1 {
+		.name .container h1 {
 		    text-transform: uppercase;
 		    font-family: 'Oswald', sans-serif;
-		    font-size: 6em;
+		    font-size: 5.5em;
 		    font-weight: 700;
 		    margin-bottom: 10px;
 		    display: inline;
@@ -113,7 +113,7 @@
 		    text-shadow: rgba(0, 0, 0, 0.3) 0px 4px 3px;
 		}
 
-		.landing-text .container h1:hover {
+		.name .container h1:hover {
 		    color: rgb(380,230,0);
 
 		    animation: ease .2s;
@@ -124,7 +124,7 @@
 			transition: .2s ease;
 		}
 
-		.landing-text .container h3 {
+		.name .container h3 {
 			font-family: 'Oswald', sans-serif;
 			color: white;
 			font-size: 2em;
@@ -152,84 +152,69 @@
 			background-image: url(img/hawaii.jpg);
 			margin: 0px;
 			padding-top: 0px; 
-			min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+			background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
+
 		}
 
 		#hawaii.newbg {
 		    background-image:url(img/tommy.jpg);
 		    margin: 0px;
 			padding-top: 0px; 
-			min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+			background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 		
 		#waves {
 			background-image: url(img/hawaii2.jpg);
-			min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+			background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 
 		#waves.newbg {
 		    background-image:url(img/cinematicarts.jpg);
-		    min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+		    background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 
 		#code {
 			background-image: url(img/code.jpg);
-			min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+			background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 
 		#code.newbg {
 		    background-image:url(img/bovard.jpg);
-		    min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+		    background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 
 		#sunset {
 			background-image: url(img/scsunset.jpg);
-			min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+			background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 
 		#sunset.newbg {
 		    background-image:url(img/uscsunset.jpg);
-		    min-width: 100%;
-  			min-height: 100%;
-			-webkit-background-size: cover; 
-			-moz-background-size: cover; 
-			-o-background-size: cover; 
+		    background-attachment: fixed;
 			background-size: cover;
+			height: 100vh;
+			width: 100vw;
 		}
 
 		#fighton {
