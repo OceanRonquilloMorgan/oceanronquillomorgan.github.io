@@ -1,12 +1,7 @@
-// Initialize AOS.js
+// AOS.js - animation on scroll
 AOS.init();
 
-// Bulma navbar on mobile
-(function() {
-  var burger = document.querySelector('.burger');
-  var menu = document.querySelector('#' + burger.dataset.target);
-  burger.addEventListener('click', function() {
-    burger.classList.toggle('is-active');
-    menu.classList.toggle('is-active');
-  });
-})();
+// CounterUp.js - jQuery plugin for number animation
+$('.counter').counterUp();
+
+// TO-DO: Implement modal toggle

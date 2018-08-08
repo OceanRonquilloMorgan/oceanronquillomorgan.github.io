@@ -5,17 +5,17 @@
   "homepage": "https://oceanronquillomorgan.github.io",
   "repository": "https://github.com/OceanRonquilloMorgan/oceanronquillomorgan.github.io.git",
   "devDependencies": {
-    "autoprefixer": "^8.6.5",
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt": "^0.4.5",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.1",
-    "grunt-postcss": "^0.9.0"
+    "grunt-sass": "^3.0.1",
+    "node-sass": "^4.9.2"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.4",
     "bulma": "^0.7.1",
+    "bulma-components": "0.0.5",
+    "bulma-extensions": "^2.2.1",
     "particles.js": "^2.0.0",
     "typed.js": "^2.0.8"
   },

@@ -8,74 +8,323 @@
       \,)   | |
         \__(__|
         ~Fight On!
-	Heyo! Welcome to my personal website and portfolio.
-	Check out my projects on my Github:
-	github.com/OceanRonquilloMorgan
+    Heyo! Welcome to my personal website and portfolio.
+    - Like what you see? I'm currently looking for
+    - summer 2019 internship opportunities.
+    - Please contact me at: oronquil@usc.edu
 -->
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
   <head>
-    <title>Ocean Ronquillo-Morgan | Software Developer, Entrepeneur, Trojan</title>
+    <title>Ocean Ronquillo-Morgan | Software Developer, Co-Founder, Trojan</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO Purposes -->
-    <meta name="description" content="Ocean Ronquillo-Morgan. Developer, Entrepreneur, Trojan. USC Computer Science / Business Administration 2020."/>
-  	<meta name="keywords" content= "Ocean Ronquillo-Morgan, Ronquillo-Morgan, Ocean, Full-Stack Development, Web Development, HTML, CSS, Java, Python, Bootstrap"/>
-    <meta property='og:title' content="Ocean Ronquillo-Morgan | Software Developer, Entrepeneur, Trojan">
-  	<meta property="og:description" content="Software Developer, Entrepreneur, Trojan. USC Computer Science and Business Administration 2020."/>
+    <meta name="description" content="Software developer inspired by the unique intersection of technology, business, and cinematography. USC Computer Science & Business Administration 2020."/>
+  	<meta name="keywords" content= "Ocean Ronquillo-Morgan, Ronquillo-Morgan, Ocean, Full Stack Developer, MERN Stack, Full-Stack Development, Web Developer, Web Development, Co-Founder, Digital Marketing, CTO"/>
+    <meta property='og:title' content="Ocean Ronquillo-Morgan | Software Developer, Co-Founder, Trojan">
+  	<meta property="og:description" content="Software developer inspired by the unique intersection of technology, business, and cinematography. USC Computer Science & Business Administration 2020."/>
   	<meta property='og:url' content="http://oceanronquillomorgan.github.io">
 
     <!-- Website Icon -->
   	<link rel="icon" href="./assets/img/favicon.ico" type="img/png">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700,900">
     <link rel="stylesheet" href="https://michalsnik.github.io/aos/dist/css/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
-    <link rel="stylesheet" href="https://bulma.io/css/bulma-docs.min.css?v=201807101351">
 
-    <!-- Bulma -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-
-    <!-- Load AOS 'animate on scroll' -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Load AOS - animate on scroll -->
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Load Typed.js -->
     <script type="text/javascript" src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
+    <!-- Load Bulma Modals -->
+    <script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
   </head>
 
     <body>
       <!-- Load Particles.js canvas -->
       <div id="particles-js"></div>
 
-        <!-- Main Landing -->
-        <section class="hero">
-    			<div class="hero-center">
-    				<h1 data-aos="fade-up" data-aos-delay="400">Ocean 🌊</h1>
-            <h2 data-aos="fade-up" data-aos-delay="600">
-              <a class="button is-large is-danger bd-rainbow" href="https://oceanronquillomorgan.github.io/Ocean_Ronquillo_Morgan_Resume.pdf">
+      <!-- Main Landing -->
+      <section class="hero landing is-fullheight">
+    		<div class="hero-center">
+    			<h1 data-aos="fade-up" data-aos-delay="400">OCEAN 🌊</h1>
+          <h2 data-aos="fade-up" data-aos-delay="700">
+            <a class="button is-medium rainbow" target="_blank" href="Ocean_Ronquillo_Morgan_Resume.pdf">
               <span id="typed"></span>
-              </a>
-            </h2>
+            </a>
+          </h2>
+        </div>
+
+    		<span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="2800">
+          Scroll Down
+          <a href="#counter">
+            <i class="chevron bottom"></i>
+          </a>
+    		</span>
+      </section>
+
+      <!-- Counter Section -->
+      <section class="section" id="counter">
+        <div class="container">
+
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Personal Projects</p>
+                <p class="title"><span class="counter">7</span></p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">On-Campus Organizations</p>
+                <p class="title"><span class="counter">6</span></p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Years Alive</p>
+                <p class="title"><span class="counter">20</span></p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="heading">Coffees Drank</p>
+                <p class="title"><span class="counter">200</span><span>+</span></p>
+              </div>
+            </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+
+          <h2 data-aos="fade-down"><span><i class="fas fa-laptop"></i></span>&nbsp;Projects</h2>
+          <hr />
+
+          <div class="columns features">
+
+            <!-- Bilk -->
+            <div data-aos="flip-up" data-aos-delay="200" class="column is-4 modal-button" data-target="modal-card">
+              <div class="card is-shady">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder Image">
+                  </figure>
+                </div>
+                <!-- <div class="card-content">
+                  <div class="content">
+                    <h4>BILK</h4>
+                    <p>Purus semper eget duis at tellus at urna condimentum mattis.</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- Emaily -->
+            <div data-aos="flip-up" data-aos-delay="300" class="column is-4 modal-button" data-target="modal-card">
+              <div class="card is-shady">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder Image">
+                  </figure>
+                </div>
+                <!-- <div class="card-content">
+                  <div class="content">
+                    <h4>EMAILY</h4>
+                    <p>Purus semper eget duis at tellus at urna condimentum mattis.</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- SB Digital Agency Restaurants Landing Page -->
+            <div data-aos="flip-up" data-aos-delay="400" class="column is-4 modal-button" data-target="modal-card">
+              <div class="card is-shady">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder Image">
+                  </figure>
+                </div>
+                <!-- <div class="card-content">
+                  <div class="content">
+                    <h4>Restaurants Landing Page</h4>
+                    <p>Purus semper eget duis at tellus at urna condimentum mattis.</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- TO-DO: More Projects Go Here -->
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline -->
+      <section class="timeline" id="timeline">
+        <h2 data-aos="fade-down"><span><i class="fas fa-history"></i></span>&nbsp;Timeline</h2>
+        <hr />
+
+        <div class="timeline is-centered">
+
+          <!-- Begin -->
+          <header class="timeline-header">
+            <span class="tag is-medium is-primary">Start</span>
+          </header>
+
+          <!-- 2016 -->
+          <div class="timeline-item is-primary">
+            <div class="timeline-marker is-danger is-primary is-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div data-aos="fade-left" class="timeline-content">
+              <p class="heading">April 2016</p>
+              <p>Accepted to the University of Southern California ✌️❤️💛</p>
+            </div>
           </div>
 
-    			<span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
-            Scroll Down
-            <a href="#about">
-              <i class="chevron bottom"></i>
-            </a>
-    			</span>
-		    </section>
+          <!-- 2017 -->
+          <header class="timeline-header">
+            <span class="tag is-primary">2017</span>
+          </header>
 
-      <!-- Scripts -->
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-      <!-- Particles.js -->
-      <script type="text/javascript">particlesJS.load('particles-js', 'particles.json');</script>
-      <!-- Custom JS -->
-      <script src="./assets/js/index.js"></script>
-      <!-- Typed.js -->
-      <script type="text/javascript"> var options = {strings: ['^600 Developer, ^250 Creator, ^250 Trojan.'],typeSpeed: 40}; var typed = new Typed('#typed', options);</script>
+          <div class="timeline-item is-primary">
+            <div class="timeline-marker is-danger is-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div data-aos="fade-right" class="timeline-content">
+              <p class="heading">January 2017</p>
+              <p>Joined ScopeUSC as a Student Developer ∞</p>
+            </div>
+          </div>
+
+          <div class="timeline-item is-primary">
+            <div class="timeline-marker is-danger is-icon">
+              <i class="fa fa-child"></i>
+            </div>
+            <div data-aos="fade-left" class="timeline-content">
+              <p class="heading">September 2017</p>
+              <p>Joined HackSC Junior's Executive Board 📈</p>
+            </div>
+          </div>
+
+        <!-- 2018 -->
+        <header class="timeline-header">
+          <span class="tag is-primary">2018</span>
+        </header>
+
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-danger is-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div data-aos="fade-right" class="timeline-content">
+            <p class="heading">April 2018</p>
+            <p>Joined the SB Digital Team as a Web Developer Intern 🖥️</p>
+          </div>
+        </div>
+
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-danger is-icon">
+            <i class="fas fa-smile-wink"></i>
+          </div>
+          <div data-aos="fade-left" class="timeline-content">
+            <p class="heading">June 2018</p>
+            <p>Became a Jopwell U Campus Ambassador 🙋</p>
+          </div>
+        </div>
+
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-danger is-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div data-aos="fade-right" class="timeline-content">
+            <p class="heading">July 2018</p>
+            <p>Became a Software Engineering Intern at the World Economic Forum 👩‍💻</p>
+          </div>
+        </div>
+
+        <div class="timeline-item is-primary">
+          <div class="timeline-marker is-danger is-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <div data-aos="fade-left" class="timeline-content">
+            <p class="heading">July 2018</p>
+            <p>Launched My Own Brand, GameGeist Apparel 👚</p>
+          </div>
+        </div>
+
+        <!-- End Timeline -->
+        <div class="timeline-header">
+          <span class="tag is-medium is-primary">End</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div data-aos="zoom-in-up" class="container footer-custom">
+
+        <p>Copyright &copy; 2018 Ocean Ronquillo-Morgan</p>
+
+        <br />
+
+        <!-- Social Icons -->
+        <a class="footer-icon" href="https://www.linkedin.com/in/oceanronquillomorgan" target="_blank" title="LinkedIn">
+          <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+        </a>
+
+        <a class="footer-icon" href="https://github.com/OceanRonquilloMorgan" target="_blank" title="GitHub">
+          <span class="icon"><i class="fab fa-github"></i></span>
+        </a>
+
+        <a class="footer-icon" href="https://www.instagram.com/ayeocean" target="_blank" title="Instagram">
+          <span class="icon"><i class="fab fa-instagram"></i></span>
+        </a>
+
+        <a class="footer-icon" href="mailto:oronquil@usc.edu" title="Email">
+          <span class="icon"><i class="fas fa-envelope"></i></span>
+        </a>
+
+        <br />
+        <br />
+
+        <!-- Resume Button -->
+        <a href="Ocean_Ronquillo_Morgan_Resume.pdf" target="_blank" class="button is-danger is-rounded is-inverted is-outlined">
+          <span class="icon">
+            <i class="fas fa-download"></i>
+          </span>
+          <span>Resume</span>
+        </a>
+
+      </div>
+    </footer>
+
+    <!-- TO-DO: Modals Go Here -->
+
+    <!-- Scripts -->
+    <!-- Particles.js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script type="text/javascript">particlesJS.load('particles-js', 'particles.json');</script>
+    <!-- Typed.js -->
+    <script type="text/javascript"> var options = {strings: ['^600 Developer, ^150 Creator, ^150 Trojan.'],typeSpeed: 30}; var typed = new Typed('#typed', options);</script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- CounterUp.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script type="text/javascript" src="jquery.counterup.min.js"></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./assets/js/index.js"></script>
   </body>
 </html>

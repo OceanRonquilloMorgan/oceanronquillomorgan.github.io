@@ -1,1 +1,6 @@
-// Import Bulma
+// Base overrides broken into section components
+@import 'base';
+@import 'typography';
+@import 'landing';
+@import 'timeline';
+@import 'footer';

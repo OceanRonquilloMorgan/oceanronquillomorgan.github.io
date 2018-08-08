@@ -1,15 +1,20 @@
+// Access to Sass without Ruby
+const sass = require('node-sass');
+
 // Load Grunt
 module.exports = function(grunt) {
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    // Tasks
     sass: {
+      options: {
+        implementation: sass,
+        sourceMap: true
+      },
       dist: {
         options: {
           style: 'compressed'
         },
         files: {
-          'assets/css/stylesheet.css': 'scss/stylesheet.scss'
+          'assets/css/stylesheet.css': 'sass/stylesheet.scss'
         }
       }
     },
@@ -20,8 +25,7 @@ module.exports = function(grunt) {
   });
 
   // Load Grunt plugins
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Register Grunt tasks

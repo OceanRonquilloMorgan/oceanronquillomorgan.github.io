@@ -1,0 +1,13 @@
+// Import initial Bulma variables
+@import '../node_modules/bulma/sass/utilities/initial-variables';
+@import '../node_modules/bulma/sass/utilities/functions';
+
+// Set Bulma global variable overrides
+$family-sans-serif: 'Nunito', sans-serif !default;
+$footer-background-color: #262626;
+$section-padding: 5rem 1.5rem !default;
+
+// Import Bulma and Bulma add-on components
+@import '../node_modules/bulma/bulma';
+@import '../node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.sass';
+@import '../node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.sass';
