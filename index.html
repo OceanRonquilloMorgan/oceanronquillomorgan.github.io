@@ -23,15 +23,20 @@
     <!-- SEO Purposes -->
     <meta name="description" content="Software developer inspired by the unique intersection of technology, business, and cinematography. USC Computer Science & Business Administration 2020."/>
   	<meta name="keywords" content= "Ocean Ronquillo-Morgan, Ronquillo-Morgan, Ocean, Full Stack Developer, MERN Stack, Full-Stack Development, Web Developer, Web Development, Co-Founder, Digital Marketing, CTO"/>
-    <meta property='og:title' content="Ocean Ronquillo-Morgan | Software Developer, Co-Founder, Trojan">
-  	<meta property="og:description" content="Software developer inspired by the unique intersection of technology, business, and cinematography. USC Computer Science & Business Administration 2020."/>
-  	<meta property='og:url' content="http://oceanronquillomorgan.github.io">
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Ocean Ronquillo-Morgan | Software Developer, Co-Founder, Trojan">
+  	<meta property="og:description" content="Software developer inspired by the unique intersection of 💻 technology, 💰 business, and 🎨 cinematography. USC Computer Science & Business Administration 2020. 👍"/>
+  	<meta property="og:url" content="http://oceanronquillomorgan.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <!-- Website Icon -->
   	<link rel="icon" href="./assets/img/favicon.ico" type="img/png">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700,900">
     <link rel="stylesheet" href="https://michalsnik.github.io/aos/dist/css/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css">
@@ -40,11 +45,15 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
 
     <!-- Load AOS - animate on scroll -->
-    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Load Typed.js -->
-    <script type="text/javascript" src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
+    <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
     <!-- Load Bulma Modals -->
-    <script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <!-- Bulma Carousels -->
+    <script src="../node_modules/bulma-extensions/bulma-carousel/dist/bulma-carousel.min.js"></script>
+    <!-- Bulma Accordions -->
+    <script src="/node_modules/bulma-extensions/bulma-accordion/dist/bulma-accordion.min.js"></script>
   </head>
 
     <body>
@@ -52,28 +61,111 @@
       <div id="particles-js"></div>
 
       <!-- Main Landing -->
-      <section class="hero landing is-fullheight">
+      <section id="landing" class="hero landing is-fullheight">
     		<div class="hero-center">
     			<h1 data-aos="fade-up" data-aos-delay="400">OCEAN 🌊</h1>
-          <h2 data-aos="fade-up" data-aos-delay="700">
-            <a class="button is-medium rainbow" target="_blank" href="Ocean_Ronquillo_Morgan_Resume.pdf">
-              <span id="typed"></span>
-            </a>
-          </h2>
+          <h2 data-aos="fade-up" data-aos-delay="700"><a class="button is-medium rainbow" target="_blank" href="Ocean_Ronquillo_Morgan_Resume.pdf"><span id="typed"></span></a></h2>
         </div>
 
-    		<span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="2800">
+    		<span id="scroll" class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="2600">
           Scroll Down
-          <a href="#counter">
+          <a href="#about">
             <i class="chevron bottom"></i>
           </a>
     		</span>
       </section>
 
-      <!-- Counter Section -->
-      <section class="section" id="counter">
-        <div class="container">
+      <!-- About Me -->
+      <section class="about" id="about">
+        <h2 data-aos="fade-down">💁 About Me</h2>
+        <hr />
 
+        <div class="columns">
+
+          <div class="column is-one-third" data-aos="zoom-in-right">
+            <h3 class="subheading has-text-centered">OCEAN RONQUILLO-MORGAN</h3>
+            <p class="has-text-centered"><span class="icon is-small"><img src="../assets/img/icon-pack/line.png"></span></p>
+            <!-- <p class="heading has-text-centered">Software developer, co-founder, trojan</p> -->
+
+            <figure class="image is-480x480">
+              <img class="is-rounded" src="./assets/img/ocean.png" alt="Ocean Ronquillo-Morgan">
+            </figure>
+            <br />
+
+            <!-- Social Buttons -->
+            <p class="has-text-centered">
+              <a class="button is-medium" href="Ocean_Ronquillo_Morgan_Resume.pdf" target="_blank" title="Resume"><span class="icon is-small"><i class="fas fa-file-alt"></i></span></a>
+              <a class="button is-medium" href="https://www.linkedin.com/in/oceanronquillomorgan" target="_blank" title="LinkedIn"><span class="icon is-small"><i class="fab fa-linkedin-in fa-fw"></i></span></a>
+              <a class="button is-medium" href="https://github.com/OceanRonquilloMorgan" target="_blank" title="GitHub"><span class="icon is-small"><i class="fab fa-github fa-fw"></i></span></a>
+              <a class="button is-medium" href="mailto:oronquil@usc.edu" title="Email"><span class="icon is-small"><i class="far fa-envelope fa-fw"></i></span></a>
+            </p>
+
+          </div>
+
+          <!-- About Me Paragraphs -->
+          <div class="column" data-aos="zoom-in-left">
+            <h3><b>SUMMARY</b></h3>
+            <p>
+              Computer Science and Business Administration (Class of 2020) undergraduate at the University of Southern California.
+               Currently seeking summer 2019 internship opportunities. Please contact me at <em>oronquil@usc.edu</em> if you'd like to get connected!
+            </p>
+
+            <br />
+
+            <h3><b>BACKGROUND</b></h3>
+            <p>
+               Born in <b>Honolulu, HI</b> &nbsp;🌴&nbsp; I was raised on an island for most of my life.
+               I moved to <b>Charleston, SC</b> &nbsp;🏠&nbsp; for a few years.
+               Now, I live in sunny <b>Los Angeles, CA &nbsp;☀️</b>
+            </p>
+
+            <br />
+
+            <h3><b>MY PASSION</b></h3>
+            <p>
+              I am a tenacious and inquisitive explorer of fields involving software engineering,
+              full-stack web development, digital marketing, and web technologies and applications.
+              Inspired by the intersection of technology, business, and cinematography,
+              I enjoy finding unique challenges to solve, innovative ways to disrupt these realms,
+              and dream of bringing new creativity and innovation to the global market within
+              the tech industry.</p>
+            </p>
+
+            <br />
+
+            <!-- Social Tags -->
+            <nav class="level">
+              <div class="level-item has-text-centered">
+                <div class="tags has-addons">
+                  <span class="tag is-danger">@ayeocean</span>
+                  <span class="tag"><span class="icon is-small"><i class="fab fa-instagram fa-fw"></i></span>&nbsp;&nbsp;Instagram</span>
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div class="tags has-addons">
+                  <span class="tag is-info">OceanRonquilloMorgan</span>
+                  <span class="tag"><span class="icon is-small"><i class="fab fa-linkedin-in fa-fw"></i></span>&nbsp;&nbsp;Linkedin</span>
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div class="tags has-addons">
+                  <span class="tag is-dark">OceanRonquilloMorgan</span>
+                  <span class="tag"><span class="icon is-small"><i class="fab fa-github fa-fw"></i></span>&nbsp;&nbsp;Github</span>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Counter Section -->
+      <section class="section has-background-light" id="counter">
+        <div class="container">
           <nav class="level">
             <div class="level-item has-text-centered">
               <div>
@@ -81,25 +173,169 @@
                 <p class="title"><span class="counter">7</span></p>
               </div>
             </div>
+
             <div class="level-item has-text-centered">
               <div>
                 <p class="heading">On-Campus Organizations</p>
                 <p class="title"><span class="counter">6</span></p>
               </div>
             </div>
+
             <div class="level-item has-text-centered">
               <div>
                 <p class="heading">Years Alive</p>
                 <p class="title"><span class="counter">20</span></p>
               </div>
             </div>
+
             <div class="level-item has-text-centered">
               <div>
                 <p class="heading">Coffees Drank</p>
                 <p class="title"><span class="counter">200</span><span>+</span></p>
               </div>
             </div>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 data-aos="fade-down">🔧 Skills</h2>
+        <hr />
+
+        <div class="container">
+
+          <!-- Columns -->
+          <div class="columns">
+
+            <!-- Development -->
+            <div class="column">
+              <p class="has-text-centered">
+                <span class="icon is-large"><img src="../assets/img/icon-pack/coding.png"></span>
+              </p>
+
+              <h2>Development</h2>
+              <br />
+
+              <!-- Languages -->
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Languages:</strong>&nbsp;C++, Java, Python, HTML/CSS, Javascript</p>
+              <!-- <p class="tags">
+                <b>
+                  <span class="tag is-medium is-primary">C++</span>
+                  <span class="tag is-medium is-primary">Java</span>
+                  <span class="tag is-medium is-primary">Python</span>
+                  <span class="tag is-medium is-primary">HTML/CSS</span>
+                  <span class="tag is-medium is-primary">Javascript</span>
+                </b>
+              </p> -->
+
+              <br />
+
+              <!-- Frameworks -->
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Frameworks:</strong>&nbsp;Node.js, Express, React.js, React Native, Vue.js, MongoDB, Django</p>
+              <!-- <p class="tags">
+                <b>
+                  <span class="tag is-medium is-danger">Node.js</span>
+                  <span class="tag is-medium is-danger">Express</span>
+                  <span class="tag is-medium is-danger">React.js</span>
+                  <span class="tag is-medium is-danger">React Native</span>
+                  <span class="tag is-medium is-danger">Vue.js</span>
+                  <span class="tag is-medium is-danger">MongoDB</span>
+                  <span class="tag is-medium is-danger">Django</span>
+                </b>
+              </p> -->
+
+              <br />
+
+              <!-- Misc. -->
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Misc:</strong>&nbsp;Git, Linux, UX/UI Design</p>
+              <!-- <p class="tags">
+                <b>
+                  <span class="tag is-medium is-warning">Git</span>
+                  <span class="tag is-medium is-warning">Linux</span>
+                  <span class="tag is-medium is-warning">UX/UI Design</span>
+                </b>
+              </p> -->
+
             </div>
+
+            <!-- Business -->
+            <div class="column">
+              <p class="has-text-centered">
+                <span class="icon is-large"><img src="../assets/img/icon-pack/pie-graphic.png"></span>
+              </p>
+
+              <h2>Business</h2>
+              <br />
+
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Experience:</strong> Launched and operated a limited liability corporation which generated over five million unique web hits and a social media and branding following</p>
+              <br />
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Skills:</strong> Search Engine Optimization (SEO), Digital Marketing, Google Analytics</p>
+            </div>
+          </div>
+
+          <br />
+
+          <!-- Cinematography -->
+          <div class="columns">
+            <div class="column">
+              <p class="has-text-centered">
+                <span class="icon is-large"><img src="../assets/img/icon-pack/photo-camera.png"></span>
+              </p>
+
+              <h2>Creative</h2>
+              <br />
+
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Equipment:</strong> DJI Phantom 3 Standard Drone, Canon Rebel T6i DLSR, Rode Go Condenser Microphone, Blue Yeti Microphone, GoPro Hero 6</p>
+              <br />
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Software:</strong> Final Cut Pro X, Adobe Photoshop, Adobe Lightroom, Sony Vegas Pro 12, Audacity</p>
+            </div>
+
+            <!-- Trojan -->
+            <div class="column">
+              <p class="has-text-centered">
+                <span class="icon is-large"><img src="../assets/img/icon-pack/heart.png"></span>
+              </p>
+
+              <h2>Trojan</h2>
+              <br />
+
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Computer Science Courses:</strong> Data Structures and Object Oriented Design, Discrete Methods in Computer Science, Programming in Python, Web Publishing</p>
+              <br />
+              <p><span class="icon is-small"><img src="../assets/img/icon-pack/arrow.png"></span>&nbsp;<strong>Business Courses:</strong> Business Organizational Behavior and Leadership, Microeconomics for Business</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Message Section -->
+      <section class="section is-small has-text-white has-background-danger" id="message">
+        <div class="message-container">
+          <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <h2 class="subheading"><b>Contact Me</b></h2>
+              </div>
+            </div>
+
+            <div class="level-item has-text-centered">
+              <div>
+                <h4>I am always open to grab a cup of coffee or simply say hello at <em>oronquil@usc.edu</em></h4>
+              </div>
+            </div>
+
+            <div class="level-item has-text-centered">
+              <div>
+                <!-- Resume Button -->
+                <p>
+                  <a href="Ocean_Ronquillo_Morgan_Resume.pdf" target="_blank" class="button is-medium is-danger is-inverted is-outlined is-rounded">
+                    <span>RESUME</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+
           </nav>
         </div>
       </section>
@@ -108,7 +344,7 @@
       <section class="section" id="projects">
         <div class="container">
 
-          <h2 data-aos="fade-down"><span><i class="fas fa-laptop"></i></span>&nbsp;Projects</h2>
+          <h2 data-aos="fade-down">‍💻 Projects</h2>
           <hr />
 
           <div class="columns features">
@@ -172,139 +408,128 @@
 
       <!-- Timeline -->
       <section class="timeline" id="timeline">
-        <h2 data-aos="fade-down"><span><i class="fas fa-history"></i></span>&nbsp;Timeline</h2>
-        <hr />
+        <div class="container">
+          <h2 data-aos="fade-down">⏳ Timeline</h2>
+          <hr />
 
-        <div class="timeline is-centered">
+          <div class="timeline is-centered">
 
-          <!-- Begin -->
-          <header class="timeline-header">
-            <span class="tag is-medium is-primary">Start</span>
-          </header>
+            <!-- Begin -->
+            <header class="timeline-header">
+              <span class="tag is-medium is-primary">Start</span>
+            </header>
 
-          <!-- 2016 -->
-          <div class="timeline-item is-primary">
-            <div class="timeline-marker is-danger is-primary is-icon">
-              <i class="fas fa-graduation-cap"></i>
+            <!-- 2016 -->
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-primary is-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <p class="heading">April 2016</p>
+                <p>Accepted to the University of Southern California ✌️❤️💛</p>
+              </div>
             </div>
-            <div data-aos="fade-left" class="timeline-content">
-              <p class="heading">April 2016</p>
-              <p>Accepted to the University of Southern California ✌️❤️💛</p>
+
+            <!-- 2017 -->
+            <header class="timeline-header">
+              <span class="tag is-primary">2017</span>
+            </header>
+
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div data-aos="fade-right" class="timeline-content">
+                <p class="heading">January 2017</p>
+                <p>Joined ScopeUSC as a Student Developer ∞</p>
+              </div>
+            </div>
+
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fa fa-child"></i>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <p class="heading">September 2017</p>
+                <p>Joined HackSC Junior's Executive Board 📈</p>
+              </div>
+            </div>
+
+            <!-- 2018 -->
+            <header class="timeline-header">
+              <span class="tag is-primary">2018</span>
+            </header>
+
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div data-aos="fade-right" class="timeline-content">
+                <p class="heading">April 2018</p>
+                <p>Joined the SB Digital Team as a Web Developer Intern 🖥️</p>
+              </div>
+            </div>
+
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fas fa-smile-wink"></i>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <p class="heading">June 2018</p>
+                <p>Became a Jopwell U Campus Ambassador 🙋</p>
+              </div>
+            </div>
+
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <div data-aos="fade-right" class="timeline-content">
+                <p class="heading">July 2018</p>
+                <p>Became a Software Engineering Intern at the World Economic Forum 👩‍💻</p>
+              </div>
+            </div>
+
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-danger is-icon">
+                <i class="fas fa-tshirt"></i>
+              </div>
+              <div data-aos="fade-left" class="timeline-content">
+                <p class="heading">July 2018</p>
+                <p>Launched My Own Brand, GameGeist Apparel 👚</p>
+              </div>
+            </div>
+
+            <!-- End Timeline -->
+            <div class="timeline-header">
+              <span class="tag is-medium is-primary">End</span>
             </div>
           </div>
-
-          <!-- 2017 -->
-          <header class="timeline-header">
-            <span class="tag is-primary">2017</span>
-          </header>
-
-          <div class="timeline-item is-primary">
-            <div class="timeline-marker is-danger is-icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div data-aos="fade-right" class="timeline-content">
-              <p class="heading">January 2017</p>
-              <p>Joined ScopeUSC as a Student Developer ∞</p>
-            </div>
-          </div>
-
-          <div class="timeline-item is-primary">
-            <div class="timeline-marker is-danger is-icon">
-              <i class="fa fa-child"></i>
-            </div>
-            <div data-aos="fade-left" class="timeline-content">
-              <p class="heading">September 2017</p>
-              <p>Joined HackSC Junior's Executive Board 📈</p>
-            </div>
-          </div>
-
-        <!-- 2018 -->
-        <header class="timeline-header">
-          <span class="tag is-primary">2018</span>
-        </header>
-
-        <div class="timeline-item is-primary">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fas fa-globe"></i>
-          </div>
-          <div data-aos="fade-right" class="timeline-content">
-            <p class="heading">April 2018</p>
-            <p>Joined the SB Digital Team as a Web Developer Intern 🖥️</p>
-          </div>
-        </div>
-
-        <div class="timeline-item is-primary">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fas fa-smile-wink"></i>
-          </div>
-          <div data-aos="fade-left" class="timeline-content">
-            <p class="heading">June 2018</p>
-            <p>Became a Jopwell U Campus Ambassador 🙋</p>
-          </div>
-        </div>
-
-        <div class="timeline-item is-primary">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <div data-aos="fade-right" class="timeline-content">
-            <p class="heading">July 2018</p>
-            <p>Became a Software Engineering Intern at the World Economic Forum 👩‍💻</p>
-          </div>
-        </div>
-
-        <div class="timeline-item is-primary">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fas fa-tshirt"></i>
-          </div>
-          <div data-aos="fade-left" class="timeline-content">
-            <p class="heading">July 2018</p>
-            <p>Launched My Own Brand, GameGeist Apparel 👚</p>
-          </div>
-        </div>
-
-        <!-- End Timeline -->
-        <div class="timeline-header">
-          <span class="tag is-medium is-primary">End</span>
-        </div>
 
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-      <div data-aos="zoom-in-up" class="container footer-custom">
+    <footer class="footer has-background-black-ter">
+      <div data-aos="zoom-in" class="container footer-custom">
 
         <p>Copyright &copy; 2018 Ocean Ronquillo-Morgan</p>
 
         <br />
 
         <!-- Social Icons -->
-        <a class="footer-icon" href="https://www.linkedin.com/in/oceanronquillomorgan" target="_blank" title="LinkedIn">
-          <span class="icon"><i class="fab fa-linkedin-in"></i></span>
-        </a>
+        <p class="social-icons">
+          <a data-aos="flip-up" data-aos-delay="100" class="button is-medium" href="Ocean_Ronquillo_Morgan_Resume.pdf" target="_blank" title="Resume"><span class="icon is-small"><i class="fas fa-file-alt"></i></span></a>
+          <a data-aos="flip-up" data-aos-delay="200" class="button is-medium" href="https://www.linkedin.com/in/oceanronquillomorgan" target="_blank" title="LinkedIn"><span class="icon is-small"><i class="fab fa-linkedin-in fa-fw"></i></span></a>
+          <a data-aos="flip-up" data-aos-delay="300" class="button is-medium" href="https://github.com/OceanRonquilloMorgan" target="_blank" title="GitHub"><span class="icon is-small"><i class="fab fa-github fa-fw"></i></span></a>
+          <a data-aos="flip-up" data-aos-delay="400" class="button is-medium" href="https://www.instagram.com/ayeocean" target="_blank" title="Instagram"><span class="icon is-small"><i class="fab fa-instagram fa-fw"></i></span></a>
+          <a data-aos="flip-up" data-aos-delay="500" class="button is-medium" href="https://angel.co/oceanronquillomorgan" target="_blank" title="AngelList"><span class="icon is-small"><i class="fab fa-angellist fa-fw"></i></span></a>
+          <a data-aos="flip-up" data-aos-delay="600" class="button is-medium" href="mailto:oronquil@usc.edu" title="Email"><span class="icon is-small"><i class="far fa-envelope fa-fw"></i></span></a>
+        </p>
 
-        <a class="footer-icon" href="https://github.com/OceanRonquilloMorgan" target="_blank" title="GitHub">
-          <span class="icon"><i class="fab fa-github"></i></span>
-        </a>
-
-        <a class="footer-icon" href="https://www.instagram.com/ayeocean" target="_blank" title="Instagram">
-          <span class="icon"><i class="fab fa-instagram"></i></span>
-        </a>
-
-        <a class="footer-icon" href="mailto:oronquil@usc.edu" title="Email">
-          <span class="icon"><i class="fas fa-envelope"></i></span>
-        </a>
-
-        <br />
-        <br />
-
-        <!-- Resume Button -->
-        <a href="Ocean_Ronquillo_Morgan_Resume.pdf" target="_blank" class="button is-danger is-rounded is-inverted is-outlined">
-          <span class="icon">
-            <i class="fas fa-download"></i>
-          </span>
-          <span>Resume</span>
+        <!-- Back to Top Button -->
+        <a href="#landing" class="button is-danger is-rounded is-inverted is-outlined">
+          <span>BACK TO TOP</span>
         </a>
 
       </div>
@@ -314,17 +539,18 @@
 
     <!-- Scripts -->
     <!-- Particles.js -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script type="text/javascript">particlesJS.load('particles-js', 'particles.json');</script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>particlesJS.load('particles-js', 'particles.json');</script>
     <!-- Typed.js -->
-    <script type="text/javascript"> var options = {strings: ['^600 Developer, ^150 Creator, ^150 Trojan.'],typeSpeed: 30}; var typed = new Typed('#typed', options);</script>
+    <script> var options = {strings: ['^600 Developer, ^150 Creator, ^150 Trojan.'],typeSpeed: 30}; var typed = new Typed('#typed', options);</script>
     <!-- jQuery -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- CounterUp.js -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script type="text/javascript" src="jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- scrollTo.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
     <!-- Custom JS -->
-    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>

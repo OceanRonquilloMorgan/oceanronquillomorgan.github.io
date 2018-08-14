@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,700,900");
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -6416,7 +6417,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  background-color: #262626;
+  background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
 .carousel {
@@ -7033,6 +7034,7 @@ body {
 
 h2 {
   font-size: 2rem;
+  font-weight: 100;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em; }
@@ -7106,8 +7108,16 @@ hr {
   100% {
     background-position: 1% 80%; } }
 
+.about {
+  padding: 5% 5% 2% 5%; }
+
+.skills {
+  padding: 5% 1.5% 5% 1.5%; }
+
 .timeline {
-  padding: 0% 1.5% 2% 1.5%; }
+  padding: 5% 1.5% 2% 1.5%;
+  color: white;
+  background-color: #363636; }
 
 .footer-custom {
   color: white;
@@ -7116,10 +7126,49 @@ hr {
   .footer-custom p {
     font-size: 1.1rem; }
 
-.footer-icon {
-  font-size: 1.3rem;
-  color: white; }
-  .footer-icon:hover {
+.social-icons {
+  margin: 0 auto 3rem; }
+  .social-icons:hover {
     color: #dbdbdb; }
+
+@media screen and (min-width: 769px) {
+  footer .social-icons {
+    margin: 0 auto 3.5rem; } }
+
+footer .social-icons a.button {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 0.2rem;
+  height: 47px;
+  width: 47px;
+  border: 2px solid rgba(255, 255, 255, 0.3); }
+
+@media screen and (min-width: 769px) {
+  footer .social-icons a.button {
+    margin: 0 0.8rem; } }
+
+footer .social-icons a.button.is-medium {
+  font-size: 1.05rem; }
+
+@media screen and (min-width: 769px) {
+  footer .social-icons a.button.is-medium {
+    font-size: 1.18rem; } }
+
+footer .social-icons a.button .icon.is-small {
+  height: 1.4em;
+  width: 1.4em; }
+
+footer .social-icons a.button:hover {
+  background: #fff;
+  color: black;
+  border: 2px solid #fff; }
+
+footer .copyright {
+  opacity: 0.7; }
+
+footer .copyright .icon {
+  margin-top: -1px;
+  margin-left: 1px; }
 
 /*# sourceMappingURL=stylesheet.css.map */

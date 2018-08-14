@@ -2,12 +2,16 @@
 @import '../node_modules/bulma/sass/utilities/initial-variables';
 @import '../node_modules/bulma/sass/utilities/functions';
 
-// Set Bulma global variable overrides
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,700,900');
+
+// Update Bulma's global variables
 $family-sans-serif: 'Nunito', sans-serif !default;
-$footer-background-color: #262626;
+
+// Update Bulma's component variables
 $section-padding: 5rem 1.5rem !default;
 
-// Import Bulma and Bulma add-on components
+// Import the rest of Bulma and add-on components
 @import '../node_modules/bulma/bulma';
 @import '../node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.sass';
 @import '../node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.sass';
