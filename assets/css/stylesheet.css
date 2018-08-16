@@ -7111,8 +7111,21 @@ hr {
 .about {
   padding: 5% 5% 2% 5%; }
 
-.skills {
-  padding: 5% 1.5% 5% 1.5%; }
+.skills-container {
+  padding: 2% 9% 2% 9%; }
+  .skills-container h3 {
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    text-align: center; }
+
+.project-card {
+  border-radius: 2%;
+  overflow: hidden;
+  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.3); }
+  .project-card:hover {
+    cursor: pointer; }
 
 .timeline {
   padding: 5% 1.5% 2% 1.5%;
