@@ -2,8 +2,14 @@
   border-radius: 2%;
   overflow: hidden;
   box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.3);
+  transition: 0.1s ease-in;
+
+  img {
+    transition: 0.1s all;
+  }
 
   &:hover {
     cursor: pointer;
+    transform: scale(1.05);
   }
 }

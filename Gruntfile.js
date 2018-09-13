@@ -21,13 +21,22 @@ module.exports = function(grunt) {
     watch: {
       files: ['**/*.scss'],
       tasks: ['sass']
+    },
+    uglify: {
+      my_target: {
+        files: {
+          'assets/js/index.min.js': ['assets/js/index.js']
+        }
+      }
     }
   });
 
   // Load Grunt plugins
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Register Grunt tasks
   grunt.registerTask('default', ['watch']);
+  grunt.registerTask('all', ['sass', 'uglify']);
 };
