@@ -7030,25 +7030,29 @@ label.panel-block {
         text-align: right; }
 
 body {
-  font-family: 'Nunito', sans-serif; }
+  font-family: 'Avenir', sans-serif; }
 
 h2 {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em; }
 
 p {
   font-size: 1.25rem;
-  font-weight: 100; }
+  font-weight: normal;
+  color: #8c8c8c; }
+  p b {
+    color: #4a4a4a; }
 
 hr {
   width: 50px;
-  height: 4px;
+  height: 6px;
+  margin-top: -5px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #d4d4d4; }
+  background-color: #dbdbdb; }
 
 /* Particles.js */
 #particles-js {
@@ -7118,13 +7122,13 @@ hr {
     margin-top: 0.5rem;
     font-size: 1.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.1em;
     text-align: center; }
 
 .project-card {
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
   transition: 0.1s ease-in; }
   .project-card img {
     transition: 0.1s all; }
@@ -7136,13 +7140,16 @@ hr {
   padding: 5% 1.5% 2% 1.5%;
   color: white;
   background-color: #363636; }
+  .timeline p {
+    color: #fafafa; }
 
 .footer-custom {
   color: white;
   text-align: center;
   padding-top: 5%; }
   .footer-custom p {
-    font-size: 1.1rem; }
+    font-size: 1.1rem;
+    color: #fafafa; }
 
 .social-icons {
   margin: 0 auto 3rem; }

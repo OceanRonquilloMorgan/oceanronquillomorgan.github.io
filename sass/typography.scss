@@ -1,11 +1,11 @@
 // Set consistent theme typography
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -13,13 +13,19 @@ h2 {
 
 p {
   font-size: 1.25rem;
-  font-weight: 100;
+  font-weight: normal;
+  color: hsl(0, 0%, 55%);
+
+  b {
+    color: hsl(0, 0%, 29%);
+  }
 }
 
 hr {
   width: 50px;
-  height: 4px;
+  height: 6px;
+  margin-top: -5px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #d4d4d4;
+  background-color: hsl(0, 0%, 86%);
 }
