@@ -4,9 +4,9 @@ My <a href="http://oceanronquillomorgan.github.io" target="_blank">personal webs
 
 ## Technologies and Frameworks Used
 
-- <strong>Front-end:</strong> Bulma, SASS, jQuery
+- <strong>Front-end:</strong> Bulma, SASS/LESS, jQuery
 - <strong>Frameworks:</strong> Particles.js, Animate On Scroll
-- <strong>Misc.:</strong> Yarn, Grunt
+- <strong>Misc:</strong> Yarn, Grunt
 - <strong>Hosting:</strong> GitHub Pages
 
 ## Contact Me
